@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Inter';
-    src: url('./fonts/Inter/assets/fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+    src: url('./assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf format('truetype');
 }
 @font-face {
     font-family: 'Newsreader';
-    src: url('./assets/fonts/Newsreader/Newsreader-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+    src: url('./assets/fonts/Newsreader/Newsreader-VariableFont_opsz,wght.ttf') format('truetype');
 }
 body {
     background-color: #ffffff;
