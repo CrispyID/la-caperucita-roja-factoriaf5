@@ -1,0 +1,69 @@
+
+
+  /* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* Slideshow container */
+.slideshow {
+  position: relative; /* Parent for absolute children */
+  width: 800px; /* Adjust based on your needs */
+  height: 500px; /* Adjust based on your needs */
+  margin: 2rem auto;
+  overflow: hidden; /* Hide slides outside the container */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Optional: shadow for depth */
+}
+/* Slides container */
+.slides-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+ 
+/* Individual slides */
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0; /* Hide slides by default */
+  transition: opacity 0.5s ease-in-out; /* Smooth fade transition */
+}
+
+/* Show active slide */
+#slide1:checked ~ .slides-container .slide-1,
+#slide2:checked ~ .slides-container .slide-2,
+#slide3:checked ~ .slides-container .slide-3 {
+  opacity: 1; /* Make active slide visible */
+  z-index: 1; /* Ensure active slide is on top */
+}
+ 
+/* Style slide images */
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover container without distortion */
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+/* Slideshow container */
+.slideshow {
+  position: relative; /* Parent for absolute children */
+  width: 800px; /* Adjust based on your needs */
+  height: 500px; /* Adjust based on your needs */
+  margin: 2rem auto;
+  overflow: hidden; /* Hide slides outside the container */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* Optional: shadow for depth */
+}
